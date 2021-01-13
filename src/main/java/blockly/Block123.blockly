@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="Block123" ruleName="Block123" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="419.9999999999999" scrolly="-118.10000000000002" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Creates a function with an output." type="procedures_defreturn" x="-157" y="248">
+    <field name="NAME">Execute</field>
+    <comment h="80" pinned="false" w="160">Block123</comment>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="V3TZGnRNj{xF^_fjr^F1" origintype="variables_set" output="false" tooltip="Sets this variable to be equal to the input." type="variables_set">
+        <field name="VAR">item</field>
+      </block>
+    </statement>
+  </block>
+</blockly>

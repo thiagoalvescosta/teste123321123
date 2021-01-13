@@ -1,0 +1,255 @@
+{
+  "cells": [
+    {
+      "angle": 0,
+      "apiPath": "src/main/webapp/raml/bugx/api.raml",
+      "async": {
+        "batchSize": 500
+      },
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "stroke": "#C2C2C2",
+          "stroke-width": 1
+        },
+        ".uml-class-attrs-text": {
+          "fill": "#666",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-attrs-value": {
+          "fill": "#0066FF",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "stroke": "#C2C2C2",
+          "stroke-width": 1
+        },
+        ".uml-class-methods-text": {
+          "fill": "#0066FF",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "stroke": "#C2C2C2",
+          "stroke-width": 1
+        },
+        ".uml-class-name-text": {
+          "fill": "#000",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 12,
+          "font-weight": "bold"
+        }
+      },
+      "chkApi": false,
+      "dataSource": "jdbc/main",
+      "disableCache": true,
+      "id": "paperCell",
+      "methods": [],
+      "namespace": "bugx",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "queries": [],
+      "runtimeClass": "cronos.widgets.joint.uml.Paper",
+      "size": {
+        "height": 0,
+        "width": 0
+      },
+      "type": "basic.Rect",
+      "visionLikePackage": false,
+      "z": 1
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
+        "attribute01:java.lang.String",
+        "inteiro:java.lang.Integer"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 80,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "fill": "#666",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "id:String\nattribute01:String\ninteiro:Integer"
+        },
+        ".uml-class-attrs-value": {
+          "fill": "#0066FF",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-methods-text": {
+          "fill": "#0066FF",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "fill": "#000",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "Bug"
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": ""
+        },
+        {
+          "name": "attribute01",
+          "type": "java.lang.String",
+          "dbName": "attribute01",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Attribute 01",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": ""
+        },
+        {
+          "name": "inteiro",
+          "type": "java.lang.Integer",
+          "dbName": "inteiro",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Inteiro",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": ""
+        }
+      ],
+      "generateView": "Auto",
+      "id": "5411fe79-6ac6-4a7c-88ac-4541c7332b4c",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "Bug",
+      "position": {
+        "x": 219,
+        "y": 106
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Class",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 74.625,
+        "width": 134.859375
+      },
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "z": 2
+    }
+  ],
+  "selectedGroup": "",
+  "groups": [
+    {
+      "name": "",
+      "id": "97dfe0ef-3dd2-4e9f-b3f0-dd12b035717d",
+      "cells": [
+        "5411fe79-6ac6-4a7c-88ac-4541c7332b4c"
+      ],
+      "groupPositions": []
+    }
+  ]
+}

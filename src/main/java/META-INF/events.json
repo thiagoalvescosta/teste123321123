@@ -1,0 +1,32 @@
+{
+  "onSystemStarts": null,
+  "onLogout": null,
+  "onLogin": {
+    "blocklyClass": "blockly.Bloco",
+    "blocklyMethod": "Executar",
+    "blockly": {
+      "namespace": "blockly.Bloco",
+      "sourcePath": "src/main/java/blockly/Bloco.blockly",
+      "language": "java",
+      "class": "blockly.Bloco",
+      "methods": [
+        {
+          "name": "Executar",
+          "hasReturn": "true",
+          "params": []
+        }
+      ]
+    },
+    "type": "all"
+  },
+  "onSessionCreate": null,
+  "onSessionDestroy": null,
+  "afterPageRender": null,
+  "afterLoginRender": null,
+  "afterHomeRender": null,
+  "onAuthenticate": null,
+  "onGetRoles": null,
+  "onGetMultitenantId": null,
+  "onChangePassword": null,
+  "onChangeTheme": null
+}
